@@ -159,16 +159,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "ebelt"
-version = "0.1.0"
-dependencies = [
- "clap",
- "crossterm",
- "oxidebpf",
- "tui",
-]
-
-[[package]]
 name = "either"
 version = "1.6.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -729,6 +719,16 @@ dependencies = [
  "quote",
  "syn",
  "unicode-xid",
+]
+
+[[package]]
+name = "tbm"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "crossterm",
+ "oxidebpf",
+ "tui",
 ]
 
 [[package]]

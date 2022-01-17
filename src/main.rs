@@ -17,11 +17,11 @@ use tui::{
     Frame, Terminal,
 };
 
-/// Open a file and display its hex.
+/// Get inside an eBPF program.
 #[derive(Parser, Debug)]
 #[clap(author, version, about, long_about = None)]
 struct Args {
-    /// A file to open and parse.
+    /// The eBPF file to open and parse.
     #[clap(short, long)]
     file: Option<String>,
 }
@@ -172,7 +172,7 @@ fn ui<B: Backend>(f: &mut Frame<B>, app: &App) {
     // Surrounding block
     let block = Block::default()
         .borders(Borders::ALL)
-        .title(" eBELt - eBPF & ELF terminal meddler ")
+        .title(" TBM - Terminal Blueprint Meddler ")
         .title_alignment(Alignment::Center)
         .border_type(BorderType::Rounded);
     f.render_widget(block, size);
