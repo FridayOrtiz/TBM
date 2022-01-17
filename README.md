@@ -2,6 +2,12 @@
 
 A TUI application for fooling around inside eBPF files.
 
+## Installation
+
+```
+cargo install tbm
+```
+
 ## Usage
 
 Currently, only prints out the binary and dumps a `ProgramBlueprint`
