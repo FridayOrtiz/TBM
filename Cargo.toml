@@ -1,7 +1,15 @@
 [package]
 name = "tbm"
+description = "a Terminal Blueprint Meddler, for inspecting eBPF programs"
+authors = ["Rafael Ortiz <rafael@ortiz.sh>"]
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/RafaelOrtizRC/tbm"
+repository = "https://github.com/RafaelOrtizRC/tbm"
+keywords = ["ebpf", "tui", "elf", "linux"]
+categories = ["command-line-utilities"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
