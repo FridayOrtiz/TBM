@@ -2,7 +2,7 @@
 name = "tbm"
 description = "a Terminal Blueprint Meddler, for inspecting eBPF programs"
 authors = ["Rafael Ortiz <rafael@ortiz.sh>"]
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "MIT"
 readme = "README.md"
